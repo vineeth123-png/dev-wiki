@@ -1,4 +1,4 @@
-# Basics of Prompt Engg
+# Prompt Engg
 
 ## Stuff taken from Advanced Prompt Engg course
 The stuff listed below are taken from advanced prompt engg techniques course, hosted on linkedin. Course link - [LinkedIn](https://www.linkedin.com/learning/advanced-prompt-engineering-techniques/zero-shot-and-few-shot-prompting?autoSkip=true&dApp=204528272&leis=MVL&resume=false&u=3322), Github repo - [GitHub repo](https://github.com/LinkedInLearning/advanced-prompt-engineering-techniques-3817061)
@@ -46,3 +46,49 @@ Guidelines:
 Remember, use the exact same number of words for each summary.
 
 Answer in JSON. The JSON should be a list (length 5) of dictionaries whose keys are "Missing_Entities" and "Denser_Summary".
+
+
+## GitHub Copilot
+GitHub Copilot is an AI-powered code completion tool that helps developers write code faster and with fewer errors. It uses machine learning to suggest code snippets, functions, and even entire files based on the context of the code being written.
+### Areas where Copilot shines
+- Boilerplate code and scaffolding
+- Writing Unittests
+- Pattern matching
+- Uncommon or confusing syntax
+
+### Important Points
+**Important points taken from - [YT Video](https://www.youtube.com/watch?v=GPLUGJsVx0s)**
+- When using Code Complete, GitHub Copilot uses **files that are open in the IDE.**
+- Provide context and examples in the prompt to clarity expectations.
+- Include a high level description of your requirements at the top of your file. 
+Doesn't need to be formal, but the more you provide the better GitHub Copilot can help you.
+![alt text](image.png)
+
+- Three ways to interact with Copilot:
+  - CodeComplete - Copilot will suggest code as you type.
+  - Inline Chat, which allows you to ask questions and get code suggestions inline with your code.
+  - Copilot Chat Window, which is a chat interface that allows you to ask questions and get code suggestions.
+
+- Help GitHub Copilot help you  
+![alt text](image-1.png)
+
+- Ways to give more context  
+![alt text](image-2.png)
+
+- /slash commands
+![alt text](image-3.png)
+
+- We call it Copilot for a reason, not auto-pilot.
+  - Copilot is a tool to help you write code, not a replacement for your own coding skills.
+  - It can help you with boilerplate code, but it won't write your entire application for you.
+  - Use it to speed up your coding process, but always review and understand the code it suggests.
+
+### Resources
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- [GitHub Copilot Cheat Sheet](https://docs.github.com/en/copilot/reference/cheat-sheet)
+- [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+
+
+## Prompt Engineering Papers
+- [PROMPT DESIGN AND ENGINEERING: INTRODUCTION AND ADVANCED METHODS](https://arxiv.org/pdf/2401.14423)
+- [LinkedIn Post - Prompt Engineering 101: Introduction and Resources](https://www.linkedin.com/pulse/prompt-engineering-101-introduction-resources-amatriain/)
